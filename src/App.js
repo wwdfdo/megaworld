@@ -6,6 +6,9 @@ import cross from "../src/images/cross.svg";
 import { GiGolfFlag } from "react-icons/gi";
 import { AiFillHome } from "react-icons/ai";
 import { BsCameraVideoFill } from "react-icons/bs";
+import citizen from "../src/images/citizen.png";
+import Assets from "./components/Assets/Assets";
+import OpenPlatform from "./components/OpenPlatform/OpenPlatform";
 
 function App() {
   return (
@@ -65,38 +68,33 @@ function App() {
             <div className="w-[150px] text-center">REAL ECONOMICS</div>
           </div>
 
-          <div className="w-3/5 border-2 bg-white h-[20vh] mx-auto rounded-3xl my-20">
-            <div></div>
-            <div></div>
+          <div className="w-3/5 border-2 bg-white min-h-[20vh] mx-auto rounded-3xl px-8 mt-10 text-black flex justify-center  items-center">
+            <div className="w-1/3">
+              <p>REQUEST EARLY ACCESS</p>
+              <p>
+                Claim your invitation to the Mega World metaverse demo today.
+              </p>
+            </div>
+            <img src={citizen} className="-mt-20 w-[150px]" alt="" />
+            <div className="flex gap-3">
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                className="border-2 border-black w-full py-2 px-4 rounded-xl"
+              ></input>
+              <input
+                type="submit"
+                value="Send"
+                className="py-2 px-8 border-2 border-black rounded-xl bg-green-700"
+              ></input>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* <div className="flex flex-col w-3/5 mx-auto items-center ">
-        <p>
-          Collection of original assets owned by users to be transferred to the
-          metaverse:
-        </p>
-
-        <div className="flex gap-10 justify-center">
-          <div>
-            <p>113’652</p>
-            <p>Land Plots</p>
-          </div>
-          <div>
-            <p>113’652</p>
-            <p>Land Plots</p>
-          </div>
-          <div>
-            <p>113’652</p>
-            <p>Land Plots</p>
-          </div>
-          <div>
-            <p>113’652</p>
-            <p>Land Plots</p>
-          </div>
-        </div>
-      </div> */}
+      <Assets />
+      <OpenPlatform />
     </div>
   );
 }
