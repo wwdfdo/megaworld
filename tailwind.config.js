@@ -6,6 +6,8 @@ module.exports = {
       backgroundImage: {
         preview: "url('/src/images/preview.png')",
         OpenPlatform: "url('/src/images/downtown.jpg')",
+        tryYourselfbg: "url('/src/images/skyscrapers.jpg')",
+        welcomebg: "url('/src/images/apartment.jpg')",
       },
     },
   },
