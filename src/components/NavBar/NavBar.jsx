@@ -4,8 +4,12 @@ import { AiFillHome } from "react-icons/ai";
 import { BsCameraVideoFill } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 import "./NavBar.css";
+import { menus } from "../../Arrays/menuArray";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [navId, setNavId] = useState();
+
   return (
     <div className="relative z-50">
       <div className="w-3/5 mx-auto flex justify-center gap-[20%] min-h-[100px] items-center text-2xl  text-white fixed nav">
@@ -19,27 +23,25 @@ const NavBar = () => {
           </div>
         </div>
         <div className="flex gap-8 items-center">
-          <a href="#Explore" className="hover:text-yellow-300">
-            EXPLORE
-          </a>
-          <div>
-            <BsArrowRight className="text-3xl font-bold" />
-          </div>
-          <a href="#Craft" className="hover:text-yellow-300">
-            CRAFT
-          </a>
-          <div>
-            <BsArrowRight className="text-3xl font-bold" />
-          </div>
-          <a href="#Builds" className="hover:text-yellow-300">
-            BUILD
-          </a>
-          <div>
-            <BsArrowRight className="text-3xl font-bold" />
-          </div>
-          <a href="#Trade" className="hover:text-yellow-300">
-            TRADE
-          </a>
+          {menus.map((menu) => (
+            <div className="flex gap-5" key={menu.id}>
+              <a
+                className={`hover:text-yellow-300 ${
+                  navId === menu.id ? "text-yellow-300" : "text-white"
+                }`}
+                onClick={() => setNavId(menu.id)}
+                href={menu.link}
+                target={menu.class === "new" ? "_blank" : ""}
+              >
+                {menu.title}
+              </a>
+              <div>
+                <BsArrowRight
+                  className={`${menu.hidden} text-3xl font-bold `}
+                />
+              </div>
+            </div>
+          ))}
         </div>
         <div className="flex gap-8 items-center">
           <div>
