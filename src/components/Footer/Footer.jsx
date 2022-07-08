@@ -15,19 +15,20 @@ const Footer = () => {
           </div>
           <div className="text-2xl font-semibold">
             <div className="flex gap-8 items-center">
-              <div>EXPLORE</div>
+              <a href="#Explore">EXPLORE</a>
               <div>
                 <BsArrowRight className="text-3xl " />
               </div>
-              <div>CRAFT</div>
+              <a href="#Craft">CRAFT</a>
               <div>
                 <BsArrowRight className="text-3xl" />
               </div>
-              <div>BUILD</div>
+
+              <a href="#Builds">BUILD</a>
               <div>
                 <BsArrowRight className="text-3xl" />
               </div>
-              <div>TRADE</div>
+              <a href="#Trade">TRADE</a>
             </div>
           </div>
           <div>
@@ -52,7 +53,9 @@ const Footer = () => {
               Cookies Policy
             </a>
           </div>
-          <div className="underline">Feedback</div>
+          <a href="" className="underline">
+            Feedback
+          </a>
         </div>
       </div>
     </div>
