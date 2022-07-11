@@ -15,6 +15,7 @@ function App() {
       <OpenPlatform />
       <TryYourself />
       <Welcomeclub />
+
       <Footer />
     </div>
   );

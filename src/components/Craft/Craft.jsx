@@ -25,14 +25,22 @@ const Craft = () => {
         <p className="text-2xl font-semibold"></p>
       </div>
       <div className="relative">
-        <img src={nails} className="absolute left-[50%]" alt="" />
+        <img
+          src={nails}
+          className="absolute left-[50%] bottom-0 -mb-[90px]  image"
+          alt=""
+        />
         <img src={craft} alt="" />
         <img
           src={glue}
-          className="absolute right-0 -mr-[7em] bottom-[30%]"
+          className="absolute right-0 -mr-[7em] bottom-0 -mb-[400px] image"
           alt=""
         />
-        <img src={textiles} className="absolute bottom-3" alt="" />
+        <img
+          src={textiles}
+          className="absolute bottom-0 -mb-[600px] image"
+          alt=""
+        />
       </div>
     </div>
   );

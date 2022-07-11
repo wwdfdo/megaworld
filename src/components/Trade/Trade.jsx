@@ -26,17 +26,25 @@ const Trade = () => {
         <p className="text-2xl font-semibold"></p>
       </div>
       <div className="relative">
-        <img src={tooltip} className=" absolute top-20 left-0" alt="" />
-        <img src={coin} className="absolute top-0 right-0 -mt-[20%]" alt="" />
+        <img
+          src={tooltip}
+          className=" absolute -mb-[700px] bottom-0 left-0 image"
+          alt=""
+        />
+        <img
+          src={coin}
+          className="absolute bottom-0 -mb-[800px] right-0 image"
+          alt=""
+        />
         <img src={trade} alt="" />
         <img
           src={wallet}
-          className="absolute bottom-0 left-0 -mb-[20%]"
+          className="absolute bottom-0 left-0 -mb-[1600px] image"
           alt=""
         />
         <img
           src={coins}
-          className="absolute bottom-0 right-0  -mb-[20%] -mr-20"
+          className="absolute bottom-0 right-0 -mb-[1600px] -mr-20 image"
           alt=""
         />
       </div>

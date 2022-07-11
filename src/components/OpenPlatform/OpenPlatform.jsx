@@ -1,4 +1,7 @@
 import React from "react";
+import { useEffect } from "react";
+
+import { parralxItem } from "../../components/functions.js";
 
 import Explore from "../Explore/Explore";
 import Craft from "../Craft/Craft";
@@ -6,6 +9,10 @@ import Builds from "../Builds/Builds";
 import Trade from "../Trade/Trade";
 
 const OpenPlatform = () => {
+  useEffect(() => {
+    parralxItem("container", "image");
+  });
+
   return (
     <div className="relative">
       <div className=" absolute w-full h-full bg-[#296936b8] z-[1]"></div>

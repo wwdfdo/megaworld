@@ -14,19 +14,23 @@ const Explore = () => {
         <div className="text-3xl font-semibold w-1/2 mx-auto py-[2em]">
           OPEN PLATFORM. NO OBJECTIVES.
         </div>
-        <div className="relative">
+        <div className="relative container">
           <img src={exploredog} alt="" />
           <img
             src={umbrella}
-            className="absolute top-0 right-0 -mr-[25%]"
+            className="absolute top-0 right-0 -mr-[25%] image"
             alt=""
           />
           <img
             src={icecream}
-            className="absolute top-[25%] -ml-[15%] left-0"
+            className="absolute top-[75%] -ml-[15%] left-0 image"
             alt=""
           />
-          <img src={beer} alt="" className="absolute bottom-0 -mb-10 right-0" />
+          <img
+            src={beer}
+            alt=""
+            className="absolute bottom-0 -mb-[400px] right-0 image"
+          />
         </div>
       </div>
       <div className="flex flex-col text-white gap-8 w-2/5">
