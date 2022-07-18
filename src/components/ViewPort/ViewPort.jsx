@@ -30,7 +30,7 @@ const ViewPort = () => {
             THE METAVERSE
           </div>
 
-          <div className="flex justify-center items-center md:gap-16 gap-8 md:text-3xl text-xl">
+          <div className="flex justify-center items-center md:gap-16 gap-8 md:text-3xl text-xl md:w-full w-[95%]">
             <div className="w-[100px] md:[150px] text-center">VIRTUAL CITY</div>
             <img src={cross} className="w-[100px]" alt="" />
             <div className="w-[100px] md:[150px] text-center">

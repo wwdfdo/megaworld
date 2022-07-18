@@ -29,7 +29,7 @@ const Explore = () => {
           <img
             src={beer}
             alt=""
-            className="absolute bottom-0 -mb-[400px] right-0 image md:w-auto w-[150px]"
+            className="absolute bottom-0 md:-mb-[400px] -mb-[200px] right-0 image md:w-auto w-[150px]"
           />
         </div>
       </div>
