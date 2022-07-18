@@ -6,8 +6,10 @@ const Welcomeclub = () => {
   return (
     <div className=" bg-welcomebg bg-cover w-full" id="Welcomeclub">
       <div className="w-4/5 mx-auto">
-        <div className=" flex flex-col items-center gap-20 z-[10] py-40 text-white">
-          <h2 className="text-5xl font-bold">WELCOME TO THE CLUB</h2>
+        <div className=" flex flex-col items-center md:gap-20 gap-10 z-[10] py-40 text-white">
+          <h2 className="text-5xl font-bold text-center">
+            WELCOME TO THE CLUB
+          </h2>
           <div className="flex gap-3 text-2xl">
             <input
               type="text"

@@ -18,7 +18,7 @@ const Explore = () => {
           <img src={exploredog} alt="" />
           <img
             src={umbrella}
-            className="absolute top-0 right-0 -mr-[25%] image md:w-auto w-2/3"
+            className="absolute top-0 right-0 md:-mr-[25%] mt-[100px] md:mb-0 image md:w-auto w-2/3"
             alt=""
           />
           <img

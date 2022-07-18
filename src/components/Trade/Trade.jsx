@@ -8,7 +8,7 @@ import coin from "../../images/coin.png";
 const Trade = () => {
   return (
     <div
-      className="flex md:flex-row flex-col md:w-4/5 w-[95%] justify-between items-center mx-auto z-[10] py-48"
+      className="flex md:flex-row flex-col md:w-4/5 w-[95%] justify-between items-center mx-auto z-[10] py-48 md:gap-0 gap-32"
       id="Trade"
     >
       <div className="md:w-2/5 flex flex-col gap-8">
