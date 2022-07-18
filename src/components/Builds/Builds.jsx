@@ -15,7 +15,7 @@ import buildblock11 from "../../images/Block011.png";
 const Builds = () => {
   return (
     <div
-      className="flex w-4/5 justify-between mx-auto z-[10] pt-32 "
+      className="flex md:flex-row flex-col md:w-4/5 w-[95%] justify-between mx-auto z-[10] pt-32 md:gap-0 gap-20 "
       id="Builds"
     >
       <div className="relative">
@@ -24,41 +24,41 @@ const Builds = () => {
         <img
           src={buildblock11}
           alt=""
-          className="absolute w-[500px] bottom-[200px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[200px] -mb-[1400px] image"
         />
         <img
           src={buildblock10}
           alt=""
-          className="absolute w-[500px] bottom-[180px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[180px] -mb-[1400px] image"
         />
         <img
           src={buildblock9}
-          className="absolute w-[500px] bottom-[160px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[160px] -mb-[1400px] image"
           alt=""
         />
         <img
           src={buildblock8}
-          className="absolute w-[500px] bottom-[140px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[140px] -mb-[1400px] image"
           alt=""
         />
         <img
           src={buildblock7}
-          className="absolute w-[500px] bottom-[120px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[120px] -mb-[1400px] image"
           alt=""
         />
         <img
           src={buildblock6}
-          className="absolute w-[500px] bottom-[100px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[100px] -mb-[1400px] image"
           alt=""
         />
         <img
           src={buildblock5}
-          className="absolute w-[500px] bottom-[80px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[80px] -mb-[1400px] image"
           alt=""
         />
         <img
           src={buildblock4}
-          className="absolute w-[500px] bottom-[60px] -mb-[1000px] image"
+          className="absolute w-[500px] bottom-[60px] -mb-[1400px] image"
           alt=""
         />
         <img
@@ -78,7 +78,7 @@ const Builds = () => {
         />
       </div>
 
-      <div className="w-2/5 flex flex-col gap-8">
+      <div className="md:w-2/5  flex flex-col gap-8">
         <h2 className="text-6xl">CRAFT</h2>
         <p className="text-2xl">
           There is nothing better than something you’ve created yourself. Roll

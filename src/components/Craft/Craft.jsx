@@ -7,10 +7,10 @@ import glue from "../../images/glue.png";
 const Craft = () => {
   return (
     <div
-      className="flex w-4/5 justify-between items-center mx-auto pt-32  z-[10] "
+      className="flex md:flex-row flex-col md:w-4/5 w-[95%] justify-between items-center mx-auto pt-32  z-[10] "
       id="Craft"
     >
-      <div className="w-2/5 flex flex-col gap-8">
+      <div className="md:w-2/5 flex flex-col gap-8 ">
         <h2 className="text-6xl">CRAFT</h2>
         <p className="text-2xl">
           There is nothing better than something you’ve created yourself. Roll
@@ -27,18 +27,18 @@ const Craft = () => {
       <div className="relative">
         <img
           src={nails}
-          className="absolute left-[50%] bottom-0 -mb-[90px]  image"
+          className="absolute left-[50%] bottom-0 md:-mb-[90px] -mb-[500px] image md:w-auto w-[100px]"
           alt=""
         />
         <img src={craft} alt="" />
         <img
           src={glue}
-          className="absolute right-0 -mr-[7em] bottom-0 -mb-[400px] image"
+          className="absolute right-0 md:-mr-[7em] bottom-0 md:-mb-[400px] -mb-[700px] image md:w-auto w-[100px]"
           alt=""
         />
         <img
           src={textiles}
-          className="absolute bottom-0 -mb-[600px] image"
+          className="absolute bottom-0 md:-mb-[600px] -mb-[900px] image md:w-auto w-[100px]"
           alt=""
         />
       </div>
