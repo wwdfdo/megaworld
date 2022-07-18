@@ -30,21 +30,27 @@ const ViewPort = () => {
             THE METAVERSE
           </div>
 
-          <div className="flex justify-center items-center gap-16 text-3xl">
-            <div className="w-[150px] text-center">VIRTUAL CITY</div>
+          <div className="flex justify-center items-center md:gap-16 gap-8 md:text-3xl text-xl">
+            <div className="w-[100px] md:[150px] text-center">VIRTUAL CITY</div>
             <img src={cross} className="w-[100px]" alt="" />
-            <div className="w-[150px] text-center">REAL ECONOMICS</div>
+            <div className="w-[100px] md:[150px] text-center">
+              REAL ECONOMICS
+            </div>
           </div>
 
-          <div className="w-3/5 border-2 bg-white min-h-[20vh] mx-auto rounded-3xl px-8 mt-10 text-black flex justify-center  items-center">
-            <div className="w-1/3">
+          <div className="md:w-3/5 w-[95%] border-2 bg-white md:min-h-[20vh] mx-auto rounded-3xl px-8 md:mt-10 mt-[100px] text-black flex md:flex-row flex-col md:justify-around gap-6 md:gap-0 py-10 md:py-0  items-center relative">
+            <div className="md:w-1/3">
               <p>REQUEST EARLY ACCESS</p>
               <p>
                 Claim your invitation to the Mega World metaverse demo today.
               </p>
             </div>
-            <img src={citizen} className="-mt-20 w-[150px]" alt="" />
-            <div className="flex gap-3">
+            <img
+              src={citizen}
+              className="md:-mt-20 md:relative absolute top-0 right-0 -mt-36 md:w-[150px] w-[100px]"
+              alt=""
+            />
+            <div className="md:flex gap-3">
               <input
                 type="text"
                 id="fname"
@@ -54,7 +60,7 @@ const ViewPort = () => {
               <input
                 type="submit"
                 value="Send"
-                className="py-2 px-8 border-2 border-black rounded-xl bg-green-700"
+                className="py-2 px-8 border-2 border-black rounded-xl bg-green-700 md:mt-0 mt-5"
               ></input>
             </div>
           </div>

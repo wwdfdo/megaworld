@@ -7,18 +7,18 @@ import beer from "../../images/beer.png";
 const Explore = () => {
   return (
     <div
-      className="flex w-4/5 justify-between items-center mx-auto pt-32  z-[10] "
+      className="flex md:flex-row flex-col md:w-4/5 w-[95%] justify-between items-center mx-auto pt-32  z-[10] "
       id="Explore"
     >
       <div className="flex flex-col">
-        <div className="text-3xl font-semibold w-1/2 mx-auto py-[2em]">
+        <div className="md:text-3xl text-2xl font-semibold md:w-1/2 w-2/3 md:mx-auto py-[2em]">
           OPEN PLATFORM. NO OBJECTIVES.
         </div>
         <div className="relative container">
           <img src={exploredog} alt="" />
           <img
             src={umbrella}
-            className="absolute top-0 right-0 -mr-[25%] image"
+            className="absolute top-0 right-0 -mr-[25%] image md:w-auto w-2/3"
             alt=""
           />
           <img

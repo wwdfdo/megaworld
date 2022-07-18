@@ -9,7 +9,7 @@ import ViewPort from "./components/ViewPort/ViewPort";
 
 function App() {
   return (
-    <div>
+    <div className="m-0 p-0 box-border">
       <ViewPort />
       <Assets />
       <OpenPlatform />

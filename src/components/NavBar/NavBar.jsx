@@ -12,17 +12,17 @@ const NavBar = () => {
 
   return (
     <div className="relative z-50">
-      <div className="w-3/5 mx-auto flex justify-center gap-[20%] min-h-[100px] items-center text-2xl  text-white fixed nav">
-        <div className="flex gap-8 items-center">
+      <div className="md:w-3/5 w-[90%] mx-auto flex md:justify-center justify-between md:gap-[20%] min-h-[100px] items-center text-2xl  text-white md:fixed nav">
+        <div className="md:flex gap-8 items-center">
           <a href="#Home" className="hover:text-yellow-300">
             {" "}
             <AiFillHome className="text-2xl border-2 border-white hover:border-yellow-300 w-[60px] h-[60px] p-2 rounded-full" />
           </a>
           <div>
-            <BsCameraVideoFill className="text-3xl hover:text-yellow-300" />
+            <BsCameraVideoFill className="text-3xl hover:text-yellow-300 md:block hidden" />
           </div>
         </div>
-        <div className="flex gap-8 items-center">
+        <div className="md:flex gap-8 items-center  hidden">
           {menus.map((menu) => (
             <div className="flex gap-5" key={menu.id}>
               <a
@@ -43,9 +43,9 @@ const NavBar = () => {
             </div>
           ))}
         </div>
-        <div className="flex gap-8 items-center">
+        <div className="md:flex gap-8 items-center">
           <div>
-            <GiGolfFlag className="text-4xl hover:text-yellow-300" />
+            <GiGolfFlag className="text-4xl hover:text-yellow-300 md:block hidden" />
           </div>
           <a href="#Welcomeclub" className="hover:text-yellow-300">
             Demo
