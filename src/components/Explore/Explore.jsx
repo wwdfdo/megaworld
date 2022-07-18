@@ -7,7 +7,7 @@ import beer from "../../images/beer.png";
 const Explore = () => {
   return (
     <div
-      className="flex md:flex-row flex-col md:w-4/5 w-[95%] justify-between items-center mx-auto pt-32  z-[10] "
+      className="flex md:flex-row flex-col md:gap-0 gap-20 md:w-4/5 w-[95%] justify-between items-center mx-auto pt-32  z-[10] "
       id="Explore"
     >
       <div className="flex flex-col">
@@ -23,17 +23,17 @@ const Explore = () => {
           />
           <img
             src={icecream}
-            className="absolute top-[75%] -ml-[15%] left-0 image"
+            className="absolute top-[75%] md:-ml-[15%]  left-0 image md:w-auto w-[100px]"
             alt=""
           />
           <img
             src={beer}
             alt=""
-            className="absolute bottom-0 -mb-[400px] right-0 image"
+            className="absolute bottom-0 -mb-[400px] right-0 image md:w-auto w-[150px]"
           />
         </div>
       </div>
-      <div className="flex flex-col text-white gap-8 w-2/5">
+      <div className="flex flex-col text-white gap-8 md:w-2/5">
         <h2 className="text-6xl">EXPLORE</h2>
         <p className="text-2xl">
           New realm for everyone — from casual visitors to ambitious
