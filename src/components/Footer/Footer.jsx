@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="bg-[#234607] py-20 ">
       <div className="flex flex-col gap-20 items-center mx-auto">
-        <div className="flex justify-center items-center gap-20 text-white">
+        <div className="md:flex justify-center items-center gap-20 text-white hidden">
           <div>
             {" "}
             <AiFillHome className="text-6xl border-2 border-[#788d68] text-white p-2 rounded-full" />
@@ -39,7 +39,7 @@ const Footer = () => {
           <img src={logo} className="mx-auto" alt="" />
         </div>
       </div>
-      <div className="w-3/5 flex flex-col item-center mx-auto gap-4">
+      <div className="md:w-3/5 w-[90%] flex flex-col item-center mx-auto gap-4">
         <div>
           <p>Copyrights © 2021 SPNV</p>
         </div>
