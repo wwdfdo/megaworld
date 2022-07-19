@@ -6,6 +6,7 @@ import TryYourself from "./components/TryYourself/TryYourself";
 import Welcomeclub from "./components/Welcomeclub/Welcomeclub";
 import Footer from "./components/Footer/Footer";
 import ViewPort from "./components/ViewPort/ViewPort";
+import ScrollBox from "./components/ScrollBox/ScrollBox";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <OpenPlatform />
       <TryYourself />
       <Welcomeclub />
-
+      <ScrollBox />
       <Footer />
     </div>
   );
