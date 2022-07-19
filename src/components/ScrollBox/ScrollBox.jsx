@@ -10,8 +10,8 @@ const ScrollBox = () => {
   // wait until DOM has been rendered
   useEffect(() => {
     gsap.to("#thirdCircle", {
-      x: 500,
-      duration: 15,
+      x: 300,
+      duration: 10,
       scrollTrigger: {
         trigger: "#thirdCircle",
         markers: true,
