@@ -16,7 +16,8 @@ const ScrollBox = () => {
         trigger: "#thirdCircle",
         markers: true,
         start: "top center",
-        end: "bottom",
+        end: "+=300",
+        toggleActions: "restart pause reverse pause",
         scrub: true,
       },
     });
@@ -24,10 +25,10 @@ const ScrollBox = () => {
 
   // DOM to render
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex items-center h-[25vh] my-20 c">
       <div
         id="thirdCircle"
-        className="w-[100px] h-[100px] bg-red-700 flex items-center justify-center text-center "
+        className="w-[100px] h-[100px] bg-red-700 flex items-center justify-center text-center my-100 "
         ref={boxRef}
       >
         Hello

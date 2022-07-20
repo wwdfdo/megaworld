@@ -17,6 +17,7 @@ function App() {
       <TryYourself />
       <Welcomeclub />
       <ScrollBox />
+
       <Footer />
     </div>
   );

@@ -1,15 +1,20 @@
 import React, { Component } from "react";
 
 import ScrollMagic from "scrollmagic";
-import { TimelineMax } from "gsap";
+import gsap from "gsap";
 import "./ScrollSlider.css";
 import $ from "jquery";
+
+import * as hello from "gsap";
 
 class ScrollSlider extends Component {
   componentDidMount() {
     var controller = new ScrollMagic.Controller();
 
-    var wipeAnimation = new TimelineMax()
+    console.log(hello);
+
+    var wipeAnimation = gsap
+      .timeline()
       // animate to second panel
       .to("#slideContainer", 0.5, { z: -150 }) // move back in 3D space
       .to("#slideContainer", 1, { x: "-25%" }) // move in to first panel
