@@ -1,0 +1,36 @@
+.scroller {
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section .heading {
+  position: relative;
+  margin: auto;
+  color: darkgoldenrod;
+  font-size: 2.5em;
+}
+
+section .text {
+  position: relative;
+  margin: auto;
+  color: white;
+  font-size: 2em;
+}
+
+section.green {
+  background: lightblue;
+}
+
+section.grey {
+  background: grey;
+}
+
+section.red {
+  background: steelblue;
+}
